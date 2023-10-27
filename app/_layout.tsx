@@ -17,23 +17,27 @@ function _layout() {
                 title: "Home"
             }}/>
 
+        {/*<Stack.Screen*/}
+        {/*    name="register/index"*/}
+        {/*    options={{*/}
+        {/*        title: "Register",*/}
+        {/*        headerRight: () => <Button*/}
+        {/*            title={"Login"}*/}
+        {/*            onPress={() => router.push("/login")}/>*/}
+
+        {/*    }}
+        />*/}
+
+        {/*<Stack.Screen*/}
+        {/*    name="login"*/}
+        {/*    options={{*/}
+        {/*        title: "Login Modal",*/}
+        {/*        presentation: "modal"*/}
+        {/*    }}/>*/}
         <Stack.Screen
-            name="register/index"
-            options={{
-                title: "Register",
-                headerRight: () => <Button
-                    title={"Login"}
-                    onPress={() => router.push("/login")}/>
-
-            }}/>
-
-        <Stack.Screen
-            name="login"
-            options={{
-                title: "Login Modal",
-                presentation: "modal"
-            }}/>
-
+            name="(pages)"
+            options={{headerShown: false}}
+        />
         <Stack.Screen
             name="(tabs)"
             options={{headerShown: false}}

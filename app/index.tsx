@@ -1,8 +1,9 @@
 import React from 'react';
-import {Button, Text, View} from "react-native";
+import {Button, Image, Text, View} from "react-native";
 import {Link} from "expo-router";
 
-{/*--------------  Menu Utama  -------------------*/}
+{/*--------------  Menu Utama  -------------------*/
+}
 
 function Index() {
     return (
@@ -12,25 +13,33 @@ function Index() {
             alignItems: "center"
         }}>
             {/*<StatusBar style={"light"}/>*/}
-            <Text>Home Page</Text>
+            <View style={{
+                display:'flex',
+                alignItems:'flex-start'
+            }}>
+                <Text>Home Page</Text>
+                <Image style={{borderRadius:25,width:50,height:50}}
+                       source={require('../assets/images/adaptive-icon.png')} />
+            </View>
 
             <View style={{
                 // display: "flex",
-                flex:1,
-                gap:10,
+                flex: 1,
+                gap: 10,
                 justifyContent: "center",
-                alignItems: "center"}}>
-                <Link href={"/register/"} asChild>
+                alignItems: "center"
+            }}>
+                <Link href={"/(pages)/register"} asChild>
                     <Button title={"Open the register"}/>
                 </Link>
 
-                <Link href={"/one"} asChild>
-                    <Button title={"Open tab one"}/>
-                </Link>
+                {/*<Link href={"/one"} asChild>*/}
+                {/*    <Button title={"Open tab one"}/>*/}
+                {/*</Link>*/}
 
-                <Link href={"/two"} asChild>
-                    <Button title={"Open tab two"}/>
-                </Link>
+                {/*<Link href={"/two"} asChild>*/}
+                {/*    <Button title={"Open tab two"}/>*/}
+                {/*</Link>*/}
 
 
                 {/*<Link href={"/error"} asChild>*/}

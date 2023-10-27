@@ -1,15 +1,17 @@
 import React from 'react';
 import {Button, Text, View} from "react-native";
-import {Link} from "expo-router";
+import {Link, Stack} from "expo-router";
 
 function Index() {
     return (
-        <View style={{
+
+
+    <View style={{
             flex: 1,
             justifyContent: "center",
             alignItems: "center"
         }}>
-            <Text>Page</Text>
+            <Text>it is a register page</Text>
             <Link href={"/"} asChild>
                 <Button title={"back"}/>
             </Link>
@@ -19,6 +21,7 @@ function Index() {
             </Link>
 
         </View>
+
     );
 }
 
