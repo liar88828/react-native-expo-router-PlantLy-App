@@ -2,10 +2,10 @@ import React from 'react';
 import {Text, View} from "react-native";
 
 
- export default function Page() {
+export default function Login() {
     return (
         <View>
-            <Text style={{fontSize:20}}>This is tab two</Text>
+            <Text>This is login button</Text>
         </View>
     );
 }
