@@ -1,51 +1,62 @@
-import React from 'react';
-import {Button, Image, Text, View} from "react-native";
-import {Link} from "expo-router";
-
+import React, {useEffect, useState} from 'react';
+import {NativeSyntheticEvent, ScrollView, StatusBar, TextInputChangeEventData, View} from "react-native";
+import Categories from "./components/categories";
+import {categoriesPlant} from '../assets/jsons/CategoriesPlant.json';
+import ListPlants from "./components/ListPlants";
+import Heads from "./components/Heads/Heads";
+import SearchInput from "./components/Heads/SearchInput";
+import {dataTumbuhan} from '../assets/jsons/DataTumbuhan.json';
+import {Plant} from "../assets/interfaces/Plant";
 {/*--------------  Menu Utama  -------------------*/
 }
 
 function Index() {
+    const [activeCategory, setActiveCategory] = useState("Toga")
+    const [categories, setCategories] = useState<{ name: string; img: string; }[]>([])
+    const [plant, setPlant] = useState<Plant[]>([])
+    const [search, setSearch] = useState<string>('')
+    const onChangeSearch = (query: NativeSyntheticEvent<TextInputChangeEventData>) => {
+        // console.log(query.nativeEvent.text)
+        setSearch(query.nativeEvent.text)
+    };
+    // setPlant(dataTumbuhan)
+
+    useEffect(() => {
+        setCategories(categoriesPlant)
+        // setPlant()
+        // getRecipe()
+    }, [])
+
+    const handleCategory = (category: any) => {
+        // getRecipe(category)
+        setActiveCategory(category)
+
+    }
+
+
     return (
         <View style={{
-            flex: 1,
-            justifyContent: "center",
-            alignItems: "center"
+            display: 'flex',
+            backgroundColor: "#ECFDF5"
         }}>
-            {/*<StatusBar style={"light"}/>*/}
-            <View style={{
-                display:'flex',
-                alignItems:'flex-start'
-            }}>
-                <Text>Home Page</Text>
-                <Image style={{borderRadius:25,width:50,height:50}}
-                       source={require('../assets/images/adaptive-icon.png')} />
-            </View>
+            <StatusBar barStyle={"dark-content"}/>
+            <ScrollView
+                showsVerticalScrollIndicator={false}
+                contentContainerStyle={{paddingBottom: 50}}
+            >
+                <Heads/>
+                <SearchInput search={onChangeSearch}/>
 
-            <View style={{
-                // display: "flex",
-                flex: 1,
-                gap: 10,
-                justifyContent: "center",
-                alignItems: "center"
-            }}>
-                <Link href={"/(pages)/register"} asChild>
-                    <Button title={"Open the register"}/>
-                </Link>
+                {/* --------- category */}
+                {/*{categories.length > 0 && <Categories activeCategory={activeCategory}*/}
+                {/*                                      handleCategory={handleCategory}*/}
+                {/*                                      categories={categories}/>}*/}
+                {categories.length > 0 && <ListPlants //plant={dataTumbuhan}
+                                                      search={search}/>}
 
-                {/*<Link href={"/one"} asChild>*/}
-                {/*    <Button title={"Open tab one"}/>*/}
-                {/*</Link>*/}
-
-                {/*<Link href={"/two"} asChild>*/}
-                {/*    <Button title={"Open tab two"}/>*/}
-                {/*</Link>*/}
-
-
-                {/*<Link href={"/error"} asChild>*/}
-                {/*    <Button title={"error"}/>*/}
-                {/*</Link>*/}
-            </View>
+                {/*<Link href={"/two"} asChild><Button title={"Open tab two"}/></Link>*/}
+                {/*<Link href={"/error"} asChild><Button title={"error"}/></Link>*/}
+            </ScrollView>
         </View>
     );
 }

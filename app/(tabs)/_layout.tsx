@@ -7,22 +7,36 @@ function _layout() {
             <Tabs.Screen
                 name={"one"}
                 options={{
-                    headerTitle:"One",
+                    headerTitle: "One",
                     tabBarLabel: "One"
                 }}/>
             <Tabs.Screen
                 name={"two"}
                 options={{
-                    headerTitle:"2",
-                    tabBarLabel: "One"
-                }}/>
+                    // tabBarIcon:''
+                    // headerTitle: "2",
+                    // tabBarLabel: "One"
+                }}
+            />
+
             <Tabs.Screen
                 name={"posts"}
                 options={{
-                    headerTitle:"Posts",
+                    headerTitle: "Posts",
                     tabBarLabel: "Posts",
-                    headerShown:false
+                    headerShown: false,
+
                 }}/>
+
+            {/*<Tabs.Screen*/}
+            {/*    name={"detail"}*/}
+            {/*    options={{*/}
+            {/*        headerTitle: "Detail",*/}
+            {/*        tabBarLabel: "Detail",*/}
+            {/*        headerShown: false*/}
+            {/*    }}/>*/}
+
+
         </Tabs>
     );
 }
