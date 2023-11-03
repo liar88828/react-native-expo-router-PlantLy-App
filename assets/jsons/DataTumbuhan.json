@@ -3,7 +3,7 @@
     {
       "id": "18022dd5-effa-401c-8d8d-3f0143d01089",
       "name": "Jahe Merah",
-      "family":"Zingiberaceae",
+      "family": "Zingiberaceae",
       "panen": "3 – 4",
       "suhu": "20-35",
       "berat": "40-60",
@@ -40,199 +40,369 @@
     {
       "id": "94315ed2-8617-43b8-b9dc-3061852e04fd",
       "name": "Jeruk Nipis",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Rutaceae",
+      "panen": "12 - 25",
+      "suhu": "25-30",
+      "berat": "30-60",
+      "harga": "13.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/sliced-lime-4022783-760x506.jpg",
       "ket": "Jeruk nipis mengandung berbagai macam nutrisi yang baik untuk tubuh. Nutrisi tersebut meliputi 22 miligram Kalsium, 12 miligram Fosfor, 68 miligram, Potasium 19,5 miligram, dan Vitamin C yakni sekitar 20-25% dari nilai harian yang direkomendasikan untuk orang dewasa.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Pilih bibit jeruk nipis yang sehat dan bebas dari penyakit. Pastikan bibit tersebut memiliki batang yang kokoh dan daun yang berwarna hijau segar.",
+          "Tanam bibit jeruk nipis di tanah yang subur dengan pH sekitar 6-7. Jeruk nipis tumbuh baik dalam tanah yang memiliki drainase yang baik. Pastikan tanah tidak menggenang, karena tanaman jeruk nipis tidak menyukai kelebihan air.",
+          "Penyiraman yang cukup penting, terutama selama musim kering. Pastikan tanah tetap lembab, tetapi hindari genangan air di sekitar akar jeruk nipis.",
+          "Berikan pupuk yang sesuai dengan kebutuhan tanaman. Jeruk nipis membutuhkan pupuk dengan kandungan unsur hara seperti nitrogen, fosfor, dan kalium. Anda bisa menggunakan pupuk kompos atau pupuk khusus tanaman jeruk.",
+          "Pemangkasan diperlukan untuk memelihara bentuk dan pertumbuhan yang baik. Pemangkasan biasanya dilakukan untuk menghilangkan dahan yang mati atau terlalu panjang, serta untuk mempromosikan sirkulasi udara yang baik di dalam pohon.",
+          "Lindungi tanaman dari hama dan penyakit. Jeruk nipis rentan terhadap hama seperti kutu daun dan ulat, jadi pantau tanaman Anda secara teratur dan lakukan tindakan pencegahan yang diperlukan."
+        ],
+        "memasak": [
+          "Belah jeruk nipis jadi dua. Peras setengah bagian jeruk. Bagian setengahnya lagi iris tipis.",
+          "Masukkan air jeruk nipis ke dalam gelas berisi air es, aduk rata.",
+          "Tambahkan gula pasir ke dalam air, aduk rata hingga gula benar-benar larut.",
+          "Tambahkan jeruk yang telah diiris tipis dan tambahkan es batu secukupnya.",
+          "Es jeruk nipis nipis asam manis yang menyegarkan siap dikonsumsi."
+        ],
+        "manfaat": [
+          "Jeruk nipis kaya akan vitamin C, serat, dan antioksidan, yang bermanfaat bagi kesehatan kulit dan sistem kekebalan tubuh.",
+          "Konsumsi jeruk nipis dapat membantu dalam pencernaan dan menjaga berat badan yang sehat.",
+          "Ekstrak jeruk nipis sering digunakan dalam produk perawatan kulit dan kecantikan karena manfaatnya untuk kulit."
+        ]
       },
       "yt": ""
     },
     {
       "id": "e9fd6181-680c-4bf4-878a-264a96595036",
       "name": "Kencur",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Zingiberaceae",
+      "panen": "8 - 10",
+      "suhu": "24-30",
+      "berat": "20 - 40",
+      "harga": "107.800",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/kencur-klikdokter-com-760x428.jpg",
       "ket": "Kencur masuk dalam kelompok tanaman jenis empon-empon yang tumbuh subur di daerah dataran rendah. Kencur memiliki daging buah yang lunak, berwarna putih dan tidak berserat.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Tanamlah kencur menggunakan umbi sebagai bibit. Pastikan umbi kencur yang digunakan berkualitas baik, sehat, dan bebas dari penyakit.",
+          "Kencur tumbuh baik di tanah yang kaya humus, berdrainase baik, dan lembab. Pastikan tanah tidak tergenang air.",
+          "Pemberian pupuk organik seperti kompos atau pupuk kandang dapat membantu pertumbuhan kencur.",
+          "Kencur dapat ditanam di pot atau di kebun. Jarak tanam sebaiknya sekitar 20-30 cm antara tanaman untuk memungkinkan pertumbuhan yang baik."
+        ],
+        "memasak": [
+          "Cuci bersih beras, kemudian rendam dalam air selama 1 jam. Setelah itu, sisihkan.",
+          "Rebus asam jawa, gula pasir, gula merah, dan jahe dengan air sampai mendidih. Setelah itu tunggu sampai agak dingin. Saring airnya. Sisihkan. ",
+          "Cuci bersih kencur yang masih segar. Kupas kulitnya dan potong-potong.",
+          "Tiriskan air rendaman beras. Blender beras, kencur, dan air rebusan gula hingga halus.",
+          "Saring jamu beras kencur. Peras ampas blenderan sampai benar-benar kering. Sajikan jamu beras kencur."
+        ],
+        "manfaat": [
+          "Kencur memiliki sejarah penggunaan dalam pengobatan tradisional sebagai obat herbal. Diketahui memiliki sifat antiinflamasi, analgesik, dan antimikroba.",
+          "Kencur juga digunakan untuk meredakan gangguan pencernaan, seperti masuk angin dan mual.",
+          "Selain itu, kencur juga digunakan dalam perawatan kecantikan dan perawatan rambut karena diyakini dapat memperkuat rambut dan memberikan kilau."
+        ]
       },
       "yt": ""
     },
     {
       "id": "083c8402-8bd9-4004-b2b3-d784e70fdb7b",
       "name": "Kunyit",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Zingiberaceae",
+      "panen": "8 - 10",
+      "suhu": "20-30",
+      "berat": "20 - 40",
+      "harga": "11.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/pepper-525696_1280-760x503.jpg",
       "ket": "Lada adalah jenis tanaman herbal obat alami keluarga (TOGA) tahunan yang tumbuh memanjat. Batangnya berwarna hijau kotor, berbentuk bulat, beruas dan memiliki akar pelekat.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Tanamlah kunyit menggunakan umbi sebagai bibit. Pastikan umbi kunyit yang digunakan berkualitas baik, sehat, dan bebas dari penyakit.",
+          "Kunyit tumbuh baik di tanah yang kaya humus, berdrainase baik, dan lembab. Pastikan tanah tidak tergenang air.",
+          "Pemberian pupuk organik seperti kompos atau pupuk kandang dapat membantu pertumbuhan kunyit.",
+          "Kunyit dapat ditanam di pot atau di kebun. Jarak tanam sebaiknya sekitar 20-30 cm antara tanaman untuk memungkinkan pertumbuhan yang baik."
+        ],
+        "memasak": [
+          "Kunyit yang sudah dicuci bersi, diparut. Disisihkan. ",
+          "Didihkan air. Masukkan gula, asam, dan garam. Masak hingga semua bahan larut. ",
+          "Masukkan kunyit parut ke rebusan. Aduk rata.",
+          "Saring jamu kunyit asam. Tambahkan madu.",
+          "Setelah uap panasnya hilang, bisa disimpan di dalam kulkas. Bisa dinikmati juga dengan es batu."
+        ],
+        "manfaat": [
+          "Kunyit memiliki sifat antiinflamasi dan antioksidan yang bermanfaat bagi kesehatan. Senyawa kurkumin dalam kunyit dikenal memiliki potensi manfaat kesehatan, seperti meredakan peradangan.",
+          "Kunyit juga digunakan dalam pengobatan tradisional untuk meredakan gangguan pencernaan, seperti masuk angin atau gangguan perut.",
+          "Selain itu, kunyit sering digunakan dalam perawatan kecantikan untuk kulit dan rambut, karena diyakini memiliki sifat yang menguntungkan."
+        ]
       },
       "yt": ""
     },
     {
       "id": "1baefce0-5010-4737-b968-8cf172e63462",
       "name": "Lidah Buaya",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Xanthorrhoeaceae",
+      "panen": "12 - 13",
+      "suhu": "20-30",
+      "berat": "200 - 300",
+      "harga": "15.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/aloevera-4603530_1280-760x506.jpg",
       "ket": "Lidah buaya atau yang juga dikenal sebagai aloe vera memang banyak tumbuh di kawasan Afrika bagian utara dan Hindia Barat. Lidah buaya banyak ditanam didalam pot di pekarangan rumah sebagai tanaman hias.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Tanamlah lidah buaya dengan menggunakan pot atau langsung di tanah. Pastikan tanah memiliki drainase yang baik, karena lidah buaya tidak menyukai kelebihan air.",
+          "Lidah buaya tumbuh dengan baik di lokasi yang mendapatkan sinar matahari sepanjang hari atau setidaknya sebagian besar hari.",
+          "Pertimbangkan untuk menanam lidah buaya dalam pot jika Anda memiliki musim dingin yang keras, sehingga Anda dapat memindahkan tanamannya ke dalam ruangan saat cuaca dingin tiba.",
+          "Jaga kelembapan tanah yang cukup, dan berikan pupuk ringan setiap beberapa bulan."
+        ],
+        "memasak": [
+          "Kulit daun dicuci hingga bersih dan ditiriskan.",
+          "Dipotong kecil-kecil atau dirajang seperti daun teh.",
+          "Jemur di bawah terik matahari hingga kering atau bisa juga dioven.",
+          "Seduh menggunakan air panas atau rebus bersama air.",
+          "Teh lidah buaya siap disajikan."
+        ],
+        "manfaat": [
+          "Lidah buaya dikenal memiliki sifat antiinflamasi dan penyembuhan kulit yang bermanfaat. Gel lidah buaya sering digunakan untuk mengatasi luka bakar, iritasi kulit, atau masalah kulit lainnya.",
+          "Kandungan nutrisi dalam lidah buaya, seperti vitamin dan mineral, dapat mendukung kesehatan kulit dan rambut serta membantu memelihara sistem kekebalan tubuh yang sehat.",
+          "Meskipun jarang digunakan dalam masakan, lidah buaya sering digunakan dalam produk-produk perawatan kulit, seperti losion, krim, atau sampo."
+        ]
       },
       "yt": ""
     },
     {
       "id": "da7751f9-9bf4-4ac9-8bf9-649e3bb58018",
       "name": "Lengkuas",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Zingiberaceae",
+      "panen": "10 - 11",
+      "suhu": "25-30",
+      "berat": "50 - 100",
+      "harga": "15.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/galangal-3270069_1280-760x664.jpg",
       "ket": "Lengkuas bisa ditanam di daerah dengan ketinggian 1-1.200 meter di atas permukaan laut. Orang Sunda biasa menyebutnya dengan nama laja. Lengkuas juga menjadi jenis tanaman herbal obat alami keluarga (TOGA) yang perlu kamu ketahui manfaatnya.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Tanamlah lengkuas dengan menggunakan umbi sebagai bibit. Pastikan umbi lengkuas yang digunakan berkualitas baik, sehat, dan bebas dari penyakit.",
+          "Lengkuas tumbuh baik di tanah yang kaya humus, berdrainase baik, dan lembab. Pastikan tanah tidak tergenang air.",
+          "Pemberian pupuk organik seperti kompos atau pupuk kandang dapat membantu pertumbuhan lengkuas.",
+          "Lengkuas bisa ditanam di pot atau di kebun. Jarak tanam sebaiknya sekitar 20-30 cm antara tanaman untuk memungkinkan pertumbuhan yang baik."
+        ],
+        "memasak": [
+          "Haluskan bumbu : bawang putih merah, ketumbar, kemiri, kunyit, jahe",
+          "Tumis bumbu halus bersama dg lengkuas parut, daun salam, sereh sampai harum. Tambahkan rasa & sdkit air.",
+          "Masak sampai ayam empuk & bumbu meresap, air mengering dan sesekali di aduk",
+          "Goreng semua ayam dengan minyak panas dgn api sedang.",
+          "Goreng sisa bumbu ungkepan sampai kering dan kecoklatan. Tiriskan untuk taburan diatas ayam goreng.",
+          "Sajikan bersama nasi uduk, tempe, tahu & sambal (untuk menambah selera makan hiasi piring beralas daun pisang) "
+        ],
+        "manfaat": [
+          "Lengkuas dikenal memiliki sifat antiinflamasi dan dapat membantu dalam meredakan gangguan pencernaan, seperti masuk angin atau mual.",
+          "Kandungan senyawa dalam lengkuas diketahui memiliki manfaat antioksidan yang dapat mendukung kesehatan tubuh.",
+          "Lengkuas juga digunakan dalam pengobatan tradisional sebagai obat herbal untuk berbagai tujuan kesehatan, seperti meredakan sakit kepala dan nyeri otot."
+        ]
       },
       "yt": ""
     },
     {
       "id": "8eb80db0-6c9a-470c-a35a-14bd6decd8a8",
       "name": "Bakung ",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Amaryllidaceae",
+      "panen": "4 - 5",
+      "suhu": "20-30.",
+      "berat": "50 - 100",
+      "harga": "15.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/Bunga-Bakung-tanamania-dot-com-760x570.jpg",
       "ket": "Tanaman bakung adalah jenis tanaman herbal obat alami keluarga (TOGA) sekaligus berfungsi juga sebagai tanaman hias. Dimana daun bakung sendiri memiliki manfaat dan khasiat yang ampuh mengatasi beberapa penyakit.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Bakung tumbuh dari umbi dan dapat ditanam dengan menanam umbinya di tanah dengan kedalaman yang cukup.",
+          "Pastikan tanah tempat Anda menanam bakung memiliki drainase yang baik dan terkena sinar matahari yang cukup.",
+          "Penyiraman secara teratur diperlukan untuk menjaga tanah tetap lembab tetapi tidak tergenang.",
+          "Anda juga dapat menanam bakung dalam pot atau wadah yang cukup dalam dengan media tanam yang baik."
+        ],
+        "memasak": [
+          "Tumis bawang putih sampai harum, masukkan ebi yang sudah ditiriskan, goreng sampai harum",
+          "Masukkan bengkoang, tambah 2 cup air, rebus sampai warna bengkoang berubah warna (transparan) atau empuk",
+          "Masukkan sayuran seledri",
+          "Setelah itu, masukkan garam, lada dan koreksi rasa",
+          "Angkat dan sajikan."
+        ],
+        "manfaat": [
+          "Bakung sering digunakan sebagai bunga hias dalam acara-acara istimewa dan perayaan, serta dalam rangkaian bunga dan dekorasi meja.",
+          "Beberapa bagian dari bakung, seperti umbi atau tangkai bunganya, telah digunakan dalam pengobatan tradisional untuk tujuan tertentu, seperti pengobatan penyakit tertentu atau peningkatan kesehatan."
+        ]
       },
       "yt": ""
     },
     {
       "id": "0711d760-d644-4db6-8831-7bebaf131622",
       "name": "Binahong ",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Apiaceae",
+      "panen": "4 - 6",
+      "suhu": "25-30",
+      "berat": "10 - 30",
+      "harga": "17.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/Daun_Binahong-bukalapak-dot-com-760x570.jpg",
       "ket": "Binahong merupakan jenis tanaman herbal obat alami keluarga (TOGA) yang sudah dikenal sejak lama dan dipergunakan oleh orang-orang jepang dan korea sebagai obat. Walaupun terkadang naman ini sering disebut benalu karena suka hidup di tanaman lain.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Binahong dapat ditanam dari biji atau dengan cara stek setekan batangnya. Pastikan untuk memilih lokasi yang mendapatkan sinar matahari yang cukup.",
+          "Tanah tempat Anda menanam binahong harus memiliki drainase yang baik. Pastikan untuk menyirami tanaman secara teratur, terutama saat cuaca kering.",
+          "Anda juga dapat memperbanyak binahong dengan memisahkan dan menanam anak tanam yang tumbuh dari akar utama tanaman dewasa."
+        ],
+        "memasak": [
+          "Tumis bawang putih dengan minyak hingga wangi. Tambahkan irisan cabai merah. Tumis hingga wangi. Baca juga: Resep Perkedel Sarden, Lauk Gampang buat Sarapan",
+          "Masukkan daun binahong yang sudah dicuci bersih. Kemudian tumis sebentar.",
+          "Tambahkan saus tiram, minyak wijen, kecap manis, kecap ikan, garam, gula, lada, penyedap rasa.",
+          "Tumis daun binahong dengan bumbu sampai matang. Sajikan selagi hangat dengan nasi putih."
+        ],
+        "manfaat": [
+          "Binahong telah digunakan dalam pengobatan tradisional untuk berbagai tujuan, seperti mempercepat penyembuhan luka, mengatasi masalah pencernaan, dan meredakan nyeri sendi.",
+          "Tanaman binahong juga dianggap memiliki sifat antiinflamasi dan antioksidan yang bermanfaat bagi kesehatan.",
+          "Namun, penggunaan binahong dalam pengobatan harus dilakukan dengan hati-hati dan konsultasi dengan ahli medis jika diperlukan."
+        ]
       },
       "yt": ""
     },
     {
       "id": "b18f1fe7-419a-4ff9-8a10-d946e339ec04",
       "name": "Pandan Wangi ",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Pandanaceae",
+      "panen": "24 - 36",
+      "suhu": "25-35",
+      "berat": "10 - 30",
+      "harga": "26.500",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/pandan-wangi-goodnewsfromindonesia-id-760x428.jpg",
       "ket": "Pandan wangi bisa tumbuh di daerah tropis dan di tempat yang agak lembab dari daerah pantai sampai daerah dengan ketinggian 500 meter di atas permukaan laut. Tinggi tanaman ini dapat mencapai 1-2 meter, panjang daun 40-80 cm dan lebar daun 3-5 cm.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Pandan wangi dapat ditanam dari stek batang atau oleh pemisahan anak tanaman. Pastikan untuk memilih lokasi yang mendapatkan sinar matahari yang cukup.",
+          "Tanah tempat Anda menanam pandan wangi harus memiliki drainase yang baik dan lembab. Pastikan untuk menyirami tanaman secara teratur, terutama saat cuaca kering.",
+          "Pemupukan dengan pupuk organik atau pupuk kandang dapat membantu pertumbuhan pandan wangi.",
+          "Anda juga dapat menanam pandan wangi dalam pot atau wadah jika Anda memiliki ruang terbatas."
+        ],
+        "memasak": [
+          "Isi, Campur kelapa, gula merah, daun pandan, garam, dan air. Masak di atas api kecil sambil diaduk sampai meresap. Sisihkan.",
+          "Kulit, Aduk tepung terigu, tepung sagu, dan garam. Tambahkan campuran telur, air daun suji, dan santan sedikit demi sedikit sambil diaduk rata.",
+          "Panaskan wajan datar kecil yang dioles sedikit minyak. Buat dadar tipis.",
+          "Ambil selembar kulit. Beri isi. Lipat kiri dan kanan. Gulung. Sajikan."
+        ],
+        "manfaat": [
+          "Pandan wangi digunakan terutama untuk memberikan aroma dan rasa khas dalam masakan dan makanan penutup, tetapi juga dikenal memiliki sifat antimikroba dan antioksidan yang mungkin memiliki manfaat kesehatan.",
+          "Minuman seperti teh pandan diketahui memiliki sifat relaksan dan dapat membantu meredakan stres.",
+          "Selain itu, pandan wangi juga sering digunakan dalam perawatan kecantikan dan aromaterapi karena aromanya yang menyegarkan."
+        ]
       },
       "yt": ""
     },
     {
       "id": "65228590-a1da-417f-801c-f41171dacdaa",
       "name": "Mengkudu",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Moraceae",
+      "panen": "12 - 24",
+      "suhu": "25-35",
+      "berat": "50 - 100",
+      "harga": "12.900",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2020/07/fruit-4489628_1280-760x505.jpg",
       "ket": "Tanaman mengkudu adalah tanaman asli milik Indonesia dari jenis kopi-kopian. Mengkudu dapat tumbuh di dataran rendah sampai dengan ketinggian 1.500 meter di atas permukaan laut. Batang mengkudu tidak begitu besar tapi tingginya bisa mencapai 3-8 meter.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Mengkudu dapat ditanam dari biji atau stek. Pilih biji yang sehat dan tanam dalam pot atau langsung di tanah dengan kedalaman yang cukup.",
+          "Tanah tempat Anda menanam mengkudu harus memiliki drainase yang baik. Pastikan tanaman mendapatkan cukup sinar matahari.",
+          "Pemupukan secara teratur dengan pupuk organik atau pupuk kandang dapat membantu pertumbuhan mengkudu.",
+          "Mengkudu memerlukan penyiraman yang cukup, terutama saat tanaman masih muda atau dalam kondisi kering."
+        ],
+        "memasak": [
+          "Cuci bersih semua bahan, potong kecil-kecil untuk mengkudu dan apel, iris tipis bawang bombai dan belah dua tomat.",
+          "Masukkan bayam dan selada ke dalam mangkuk salad.",
+          "Tambahkan apel, tomat, kacang pikan, bawang bombai, dan mengkudu.",
+          "Gunakan dressing salad sesuai selera, tambahkan pula sedikit black pepper, sajikan."
+        ],
+        "manfaat": [
+          "Mengkudu dikenal memiliki potensi manfaat kesehatan. Buahnya mengandung berbagai nutrisi, antioksidan, dan senyawa bioaktif yang dapat mendukung kesehatan tubuh.",
+          "Buah mengkudu diketahui memiliki sifat antiinflamasi dan dapat membantu menjaga sistem kekebalan tubuh yang sehat.",
+          "Daun mengkudu juga memiliki potensi manfaat kesehatan dan sering digunakan dalam pengobatan tradisional untuk berbagai tujuan, seperti mengatasi masalah pencernaan atau mengurangi peradangan."
+        ]
       },
       "yt": ""
     },
     {
       "id": "20ba0b31-12e7-4f8b-8107-1b97c9b7b425",
       "name": "Seledri",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Apiaceae",
+      "panen": "12 - 24",
+      "suhu": "15-20",
+      "berat": "15 - 30",
+      "harga": "47.000",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2022/08/Tanaman-obat-keluarga-seledri-768x576.jpg.webp",
       "ket": "Dari jenis tanaman obat alami keluarga yang pertama adalah seledri. Tanaman seledri adalah sayuran hijau dan memiliki jumlah kalori yang rendah Daun seledri mengandung sekitar 16 kalori per 100 gram. Daun seledri selain biasa digunakan sebagai penambah aroma masakan, juga bisa digunakan sebagai tanaman obat keluarga lho.Tanaman seledri memiliki beberapa kandungan baik diantaranya vitamin A, vitamin C, vitamin B1 dan zat besi lainnya seperti kalium, mineral dan zat besi.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
-
+        "menanam": [
+          "Seledri dapat ditanam dengan menanam biji atau dengan menanam stek batang. Pastikan biji atau batang yang digunakan berkualitas baik.",
+          "Tanah tempat Anda menanam seledri harus memiliki drainase yang baik dan lembab. Pastikan tanaman mendapatkan sinar matahari yang cukup, terutama di pagi hari.",
+          "Pemupukan dengan pupuk organik atau pupuk kandang dapat membantu pertumbuhan seledri.",
+          "Penyiraman secara teratur diperlukan untuk menjaga tanah tetap lembab, tetapi jangan tergenang."
+        ],
+        "memasak": [
+          "Bawang putih, kemiri, kunyit dan kencur digiling jadi satu",
+          "Masukkan garam, lada, ketumbar, kaldu bubuk kemudian giling biar tercampur dengan bumbu lainnya",
+          "Pindahkan gilingan bumbu ke baskom",
+          "Beri air secukupnya dan aduk-aduk",
+          "Tambahkan tepung sedikit demi sedikit dan aduk aduk hingga tercampur untuk mendapatkan kekentalannya",
+          "Siapkan wajan penggorengan dan beri minyak goreng",
+          "Ambil daun seledri kemudian baluri dengan adonan tepung yang sudah dicairkan",
+          "Kemudian goreng masukkan ke wajan penggorengan",
+          "Balik jika sudah berubah warna kekuningan",
+          "Angkat jika sudah masak dan tiriskan",
+          "Lakukan ulang hingga adonan habis dan siap disajikan."
+        ],
+        "manfaat": [
+          "Seledri mengandung banyak nutrisi seperti vitamin K, vitamin C, serat, dan senyawa antioksidan. Ini dapat membantu dalam menjaga kesehatan tulang, sistem kekebalan tubuh, dan pencernaan yang baik.",
+          "Konsumsi seledri juga dikaitkan dengan potensi manfaat kesehatan seperti menurunkan tekanan darah, mengurangi peradangan, dan mendukung kesehatan jantung.",
+          "Selain manfaat kesehatan, seledri juga memiliki sifat diuretik yang dapat membantu mengatasi retensi cairan dalam tubuh."
+        ]
       },
       "yt": ""
     },
     {
       "id": "301e044b-0621-4947-9592-612128ab9e0b",
       "name": "Kangkung",
-      "family":"",
-      "panen": "",
-      "suhu": "",
-      "berat": "",
-      "harga": "",
+      "family": "Amaranthaceae",
+      "panen": "1 - 2",
+      "suhu": "25-35",
+      "berat": "20-50 gra",
+      "harga": "15.600",
       "img": "https://blog-static.mamikos.com/wp-content/uploads/2022/08/Kangkung-768x403.jpg.webp",
       "ket": "Berikutnya dari daftar jenis tanaman herbal obat alami keluarga (TOGA) ada kangkung Kamu mungkin tidak percaya kalau kangkung juga memiliki segudang manfaat yang bisa digunakan sebagai obat. Kangkung adalah jenis sayuran yang mudah ditemukan.",
       "area": "rumah",
       "proses": {
-        "menanam": [],
-        "memasak": [],
-        "manfaat": []
+        "menanam": [
+          "Kangkung dapat ditanam dengan menanam biji atau stek. Pastikan biji atau stek yang digunakan berkualitas baik.",
+          "Tanah tempat Anda menanam kangkung harus memiliki drainase yang baik dan lembab. Pastikan tanaman mendapatkan sinar matahari yang cukup, terutama di pagi hari.",
+          "Pemupukan dengan pupuk organik atau pupuk kandang dapat membantu pertumbuhan kangkung.",
+          "Penyiraman secara teratur diperlukan untuk menjaga tanah tetap lembab, terutama saat cuaca kering."
+        ],
+        "memasak": [
+          "Cuci bersih kangkung yang telah disiangi dan siapkan semua bumbu.",
+          "Panaskan sedikit minyak, kemudian tumis bawang putih, bawang merah dan cabai rawit hingga harum.",
+          "Masukkan sayur kangkung ke dalam tumisan bumbu, aduk rata kemudian tutup wajan. Tunggu beberapa saat hingga kangkung layu.",
+          "Tambahkan garam, lada bubuk dan kaldu penyedap secukupnya.",
+          "Koreksi rasa, masak kangkung hingga beberapa saat sambil dibolak-balik.",
+          "Angkat tumis kangkung yang telah matang.",
+          "Sajikan selagi masih hangat."
+        ],
+        "manfaat": [
+          "Kangkung mengandung banyak nutrisi seperti vitamin A, vitamin C, zat besi, dan serat. Konsumsi kangkung dapat mendukung kesehatan mata, sistem kekebalan tubuh, dan pencernaan yang baik.",
+          "Kangkung juga rendah kalori dan kaya serat, sehingga cocok untuk diet sehat dan pengendalian berat badan.",
+          "Selain manfaat kesehatan, kangkung adalah sumber serat yang baik dan dapat membantu menjaga kesehatan usus dan mengurangi risiko berbagai penyakit kronis."
+        ]
       },
       "yt": ""
     }

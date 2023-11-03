@@ -1,0 +1,15 @@
+{
+  "abouts": {
+    "h1": "Aplikasi ini dirancang untuk membantu dalam mengelola tanaman Toga dan memanfaatkanya. Aplikasi ini juga  menyediakan berbagai macam fitur termasuk : ",
+    "list": [
+      "Pencarian Tanaman Toga",
+      "Melihat langkah - langkah Cara Memasak",
+      "Melihat langkah - langkah Cara Menanam",
+      "Melihat manfaat yang terkandung di dalamnya",
+      "Melihat suhu rata-rata saat menanam",
+      "Melihat harga rata-rata di pasaran",
+      "Melihat waktu rata-rata tanaman",
+      "Melihat berat rata-rata tanaman"
+    ]
+  }
+}

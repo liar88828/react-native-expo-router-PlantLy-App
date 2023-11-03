@@ -15,7 +15,7 @@ export default function ItemIcons(
             // className={"flex rounded-full bg-green-200 p-2"}
         >
             <View style={{
-                height: '6.5%', width: '6.5%',
+                height: 40, width: 40,
                 "display": "flex",
                 "justifyContent": "center",
                 "alignItems": "center",
@@ -36,7 +36,7 @@ export default function ItemIcons(
                 }}
                 // className={"flex items-center py-2 space-y-1"}
             >
-                <Text style={{fontSize: 20, "fontWeight": '700'}}
+                <Text style={{fontSize: 16, "fontWeight": '700'}}
                     // className={"font-bold text-neutral-700"}
                 >
                     {text1}

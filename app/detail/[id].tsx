@@ -1,12 +1,14 @@
 import React from 'react';
 import {Image, ScrollView, StatusBar, Text, View} from "react-native";
-import {Stack, useLocalSearchParams} from "expo-router";
+import {router, Stack, useLocalSearchParams} from "expo-router";
 import {dataTumbuhan} from '../../assets/jsons/DataTumbuhan.json';
-import Keterangan from "../components/items/Keterangan";
-import Menanam from "../components/items/Menanam";
-import Manfaat from "../components/items/Manfaat";
-import Memasak from "../components/items/Memasak";
+import Keterangan from "../../components/items/Keterangan";
+import Menanam from "../../components/items/Menanam";
+import Manfaat from "../../components/items/Manfaat";
+import Memasak from "../../components/items/Memasak";
 import Missing from "../[missing]";
+import {Ionicons, MaterialCommunityIcons} from "@expo/vector-icons";
+import ItemIcons from "../../components/items/ItemIcons";
 
 export default function Id() {
     const {id} = useLocalSearchParams()
@@ -27,9 +29,19 @@ export default function Id() {
             showsVerticalScrollIndicator={false}
             // contentContainerStyle={{paddingBottom: 30}}
         >
-            <StatusBar barStyle={'light-content'}/>
+            <StatusBar barStyle={'dark-content'}/>
 
-            <Stack.Screen options={{headerTitle: `Details ${item.name}`}}/>
+            <Stack.Screen
+                // name={'detail/[id]'}
+                options={{
+                    headerTitle: ` Details ${item.name}`,
+                    headerLeft: () => <Ionicons name={'arrow-back'} size={30}
+                                                onPress={() => router.replace('/')}/>
+                    // <ion-icon name="leaf"></ion-icon>
+                    // <Button onPress={() => router.back()} title={'back'}/>
+                }}
+
+            />
             {/*Recipe Image*/}
             <View style={{"flexDirection": "row", "justifyContent": "center"}}>
                 <Image
@@ -61,14 +73,14 @@ export default function Id() {
             {/*            "padding": 8,*/}
             {/*            "marginLeft": 20,*/}
             {/*            "borderRadius": 25,*/}
-            {/*            "backgroundColor": "#ffffff"*/}
+            {/*            "backgroundColor": "#037e29037e29"*/}
             {/*        }}>*/}
             {/*        /!*<ChevronLeftIcon size={hp(3.5)} strokeWidth={4.5} color={"#f14848"}/>*!/*/}
             {/*    </TouchableOpacity>*/}
 
             {/*    <TouchableOpacity*/}
             {/*        onPress={() => setIsFavorite(!isFavorite)}*/}
-            {/*        style={{"padding": 8, "marginRight": 20, "borderRadius": 25, "backgroundColor": "#ffffff"}}>*/}
+            {/*        style={{"padding": 8, "marginRight": 20, "borderRadius": 25, "backgroundColor": "#037e29037e29"}}>*/}
             {/*        /!*<HeartIcon size={hp(3.5)} strokeWidth={4.5} color={isFavorite ? "red" : "gray"}/> *!/*/}
             {/*    </TouchableOpacity>*/}
             {/*</View>*/}
@@ -93,25 +105,23 @@ export default function Id() {
                     </Text>
                 </View>
 
-                {/*  -----misc*/}
+                {/*  -----misc---*/}
                 <View
                     className={"flex-row justify-around my-6"}
                     style={{"marginVertical": 24, "flexDirection": "row", "justifyContent": "space-around"}}>
-                    {/*<ItemIcons text1={item.panen} text2={"Bulan"}>*/}
-                    {/*    /!*<ClockIcon size={hp(4)} strokeWidth={2.5} color={"#0cc546"}/>*!/*/}
-                    {/*</ItemIcons>*/}
 
-                    {/*<ItemIcons text1={item.harga} text2={"Harga"}>*/}
-                    {/*    /!*<BanknotesIcon size={hp(4)} strokeWidth={2.5} color={"#0cc546"}/>*!/*/}
-                    {/*</ItemIcons>*/}
-
-                    {/*<ItemIcons text1={item.suhu} text2={"C"}>*/}
-                    {/*    /!*<FireIcon size={hp(4)} strokeWidth={2.5} color={"#0cc546"}/>*!/*/}
-                    {/*</ItemIcons>*/}
-
-                    {/*<ItemIcons text1={item.berat} text2={"gram"}>*/}
-                    {/*    /!*<Square3Stack3DIcon size={hp(4)} strokeWidth={2.5} color={"#0cc546"}/>*!/*/}
-                    {/*</ItemIcons>*/}
+                    <ItemIcons text1={item.suhu} text2={"C"}>
+                        <Ionicons name={'thermometer'} size={24} color={'#037e29'}/>
+                    </ItemIcons>
+                    <ItemIcons text1={item.panen} text2={"Bulan"}>
+                        <Ionicons name={'time'} size={24} color={'#037e29'}/>
+                    </ItemIcons>
+                    <ItemIcons text1={item.harga} text2={"Harga"}>
+                        <Ionicons name={'cash'} size={24} color={'#037e29'}/>
+                    </ItemIcons>
+                    <ItemIcons text1={item.berat} text2={"gram"}>
+                        <MaterialCommunityIcons name="scale" size={24} color={'#037e29'}/>
+                    </ItemIcons>
 
                 </View>
 
