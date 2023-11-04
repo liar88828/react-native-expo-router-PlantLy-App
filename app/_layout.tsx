@@ -9,8 +9,24 @@ function _layout() {
                 name="index"
                 options={{
                     title: "Home",
-                    drawerIcon: ({size, color}) => <Ionicons name={'home'} size={size} color={color}/>
+                    drawerIcon: ({size, color}) => <Ionicons name='home' size={size} color={color}/>
 
+                }}/>
+
+
+            <Drawer.Screen
+                name="search/index"
+                options={{
+                    title: "search",
+                    drawerIcon: ({size, color}) => <Ionicons name="search-outline" size={size} color={color}/>
+                }}/>
+
+
+            <Drawer.Screen
+                name="about/index"
+                options={{
+                    title: "about",
+                    drawerIcon: ({size, color}) => <Ionicons name="people-outline" size={size} color={color}/>
                 }}/>
 
             <Drawer.Screen
@@ -27,14 +43,6 @@ function _layout() {
                     headerShown: false,
                     drawerItemStyle: {height: 0},
                 }}/>
-
-            <Drawer.Screen
-                name="about/index"
-                options={{
-                    title: "about",
-                    drawerIcon: ({size, color}) => <Ionicons name="people-outline" size={size} color={color}/>
-                }}/>
-
         </Drawer>
     );
 }

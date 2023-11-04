@@ -1,12 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {ScrollView, StatusBar, View} from "react-native";
 import {categoriesPlant} from '../assets/jsons/CategoriesPlant.json';
-import ListPlants from "../components/ListPlants";
+import List from "../components/card/List";
 import Heads from "../components/Heads/Heads";
 import SearchInput from "../components/Heads/SearchInput";
-
-{/*--------------  Menu Utama  -------------------*/
-}
 
 function Index() {
     const [categories, setCategories] = useState<{ name: string; img: string; }[]>([])
@@ -15,7 +12,6 @@ function Index() {
     useEffect(() => {
         setCategories(categoriesPlant)
     }, [])
-
 
     return (
         <View style={{
@@ -31,8 +27,7 @@ function Index() {
                 <SearchInput setSearch={setSearch} search={search}
                 />
 
-                {categories.length > 0 && <ListPlants //plant={dataTumbuhan}
-                    search={search}/>}
+                {categories.length > 0 && <List search={search}/>}
             </ScrollView>
         </View>
     );

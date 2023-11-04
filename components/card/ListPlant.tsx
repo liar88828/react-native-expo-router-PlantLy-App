@@ -14,11 +14,11 @@ export const ListPlant = ({item, index,}: { item: Plant, index: number }) => {
                     "marginTop": 4,
                     "justifyContent": "center"
                 }}
-                onPress={() => router.push(`/detail/${item.id}`)}
+                onPress={() => router.push(`/detail/${item.id}?back=home`)}
             >
                 <Image
                     source={{uri: item.img}}
-                    style={{width: '100%', height: index % 3 == 0 ? 200 : 300, borderRadius: 35}}
+                    style={{width: '100%', height: index % 3 == 0 ? 150 : 200, borderRadius: 35}}
                 />
 
                 <Text

@@ -9,15 +9,11 @@ import Memasak from "../../components/items/Memasak";
 import Missing from "../[missing]";
 import {Ionicons, MaterialCommunityIcons} from "@expo/vector-icons";
 import ItemIcons from "../../components/items/ItemIcons";
+import {Plant} from "../../assets/interfaces/Plant";
 
 export default function Id() {
-    const {id} = useLocalSearchParams()
-    // const router = useRouter()
-    const item = dataTumbuhan.find(d => d.id === id)
-
-    // console.log(id)
-    // console.log(item)
-    // const [isFavorite, setIsFavorite] = useState(false)
+    const {id} = useLocalSearchParams<{ id: string }>()
+    const item = dataTumbuhan.find(d => d.id === id) as Plant
     if (!item) {
         return <Missing/>
     }
@@ -35,10 +31,12 @@ export default function Id() {
                 // name={'detail/[id]'}
                 options={{
                     headerTitle: ` Details ${item.name}`,
-                    headerLeft: () => <Ionicons name={'arrow-back'} size={30}
-                                                onPress={() => router.replace('/')}/>
-                    // <ion-icon name="leaf"></ion-icon>
-                    // <Button onPress={() => router.back()} title={'back'}/>
+                    headerLeft: () => <Ionicons
+                        name={'arrow-back'}
+                        size={30}
+                        onPress={() => router.replace('/')}
+                    />
+
                 }}
 
             />
