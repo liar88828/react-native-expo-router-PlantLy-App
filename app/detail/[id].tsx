@@ -12,11 +12,12 @@ import ItemIcons from "../../components/items/ItemIcons";
 import {Plant} from "../../assets/interfaces/Plant";
 
 export default function Id() {
-    const {id} = useLocalSearchParams<{ id: string }>()
+    const {id, back} = useLocalSearchParams<{ id: string, back: string }>()
     const item = dataTumbuhan.find(d => d.id === id) as Plant
     if (!item) {
         return <Missing/>
     }
+    let backs = back === 'home' ? '/' : back
     return (<ScrollView
             style={{
                 display: 'flex',
@@ -34,7 +35,7 @@ export default function Id() {
                     headerLeft: () => <Ionicons
                         name={'arrow-back'}
                         size={30}
-                        onPress={() => router.replace('/')}
+                        onPress={() => router.replace(backs)}
                     />
 
                 }}

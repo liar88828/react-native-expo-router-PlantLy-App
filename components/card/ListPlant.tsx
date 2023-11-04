@@ -20,15 +20,10 @@ export const ListPlant = ({item, index,}: { item: Plant, index: number }) => {
                     source={{uri: item.img}}
                     style={{width: '100%', height: index % 3 == 0 ? 150 : 200, borderRadius: 35}}
                 />
-
-                <Text
-                    style={{
-                        fontSize: 20,
-                        "marginLeft": 8,
-                        "fontWeight": '700'
-                    }}
-                >{item.name.length > 20 ? item.name.slice(0, 20) + '...' : item.name}
-                </Text>
+                <View style={{display: "flex", flexDirection: "row", alignItems: "center", gap: 10}}>
+                    <Text style={{fontSize: 20, "fontWeight": '700'}}>{item.name.length > 20 ? item.name.slice(0, 20) + '...' : item.name}</Text>
+                    <Text style={{fontSize: 16, "fontWeight": '700'}}>({item.family})</Text>
+                </View>
             </Pressable>
         </View>
     )

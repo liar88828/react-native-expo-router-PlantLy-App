@@ -4,10 +4,7 @@ import React from "react";
 export default function PembuatList({titlePembuat, listPembuat,}: { titlePembuat: string, listPembuat: string[] }) {
     return (
 
-        <View style={{
-            // "marginVertical": 24,
-            padding: 20
-        }}>
+        <View style={{padding: 20}}>
             <Text style={{fontSize: 20, fontWeight: "bold"}}>
                 Pembuat
             </Text>
